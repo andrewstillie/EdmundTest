@@ -28,7 +28,7 @@ int handleEdmundBehaviour(behaviouralEvents_t behaviouralEvent)
             /* **************************************** */
             if( behaviouralEvent == behaviourEventButtonDown)
             {
-                behaviouralState = behaviourStatePoweringUp+1;
+                behaviouralState = behaviourStatePoweringUp+100;
             }
             break;
         /* **************************************** */
