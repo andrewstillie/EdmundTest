@@ -49,7 +49,7 @@ int handleEdmundBehaviour(behaviouralEvents_t behaviouralEvent)
             /* **************************************** */
             if( behaviouralEvent == behaviourEventButtonDownGT1000LT5000)
             {
-                behaviouralState = behaviourStateAdvertising+1;
+                behaviouralState = behaviourStateAdvertising+2;
             }
             /* **************************************** */
             /* State Transition: LongPress              */
